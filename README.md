@@ -1,0 +1,2 @@
+# TokenAutoCompleteNormalSpan
+修改TokenAutoComplete源码中自定义控件类，更改TokenImageSpan类，使邮箱view背景为颜色背景。之前项目中遇到一个问题，在加载邮箱过多时(30条以上)，就会特别卡，跟踪调试后发现是view背景导致处理缓慢，改成颜色背景会好些。
